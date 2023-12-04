@@ -1,6 +1,4 @@
 #!/data/data/com.termux/files/usr/bin/sh
-pkg update -y
-pkg upgrade -y
 pkg install x11-repo -y
 pkg install tigervnc xfce4 xfce4-goodies firefox -y
 echo "#!/data/data/com.termux/files/usr/bin/sh" >> $HOME/.vnc/xstartup

@@ -5,4 +5,4 @@ mkdir -p $HOME/.vnc
 echo "#!/data/data/com.termux/files/usr/bin/sh" >> $HOME/.vnc/xstartup
 echo 'export DISPLAY=":1"' >> $HOME/.vnc/xstartup
 echo "xfce4-session &" >> $HOME/.vnc/xstartup
-echo "Type vncserver -kill :1 to stop, type vncserver to start."
+echo "Type vncserver to start VNC Server. IP: localhost:5901"

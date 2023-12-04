@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/sh
+#!/data/data/com.termux/files/usr/bin/bash
 pkg install x11-repo -y
 pkg install tigervnc xfce4 xfce4-goodies firefox -y
 mkdir -p $HOME/.vnc

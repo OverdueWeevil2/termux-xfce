@@ -1,3 +1,3 @@
 ```
-curl -sSL https://raw.githubusercontent.com/OverdueWeevil2/termux-xfce/main/install.sh | bash
+pkg update -y && curl -sSL https://raw.githubusercontent.com/OverdueWeevil2/termux-xfce/main/install.sh | bash
 ```

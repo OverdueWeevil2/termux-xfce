@@ -7,3 +7,4 @@ echo 'export DISPLAY=":1"' >> $HOME/.vnc/xstartup
 echo "xfce4-session &" >> $HOME/.vnc/xstartup
 chmod a+x $HOME/.vnc/xstartup
 echo "Type vncserver to start VNC Server. IP: localhost:5901"
+vncserver
